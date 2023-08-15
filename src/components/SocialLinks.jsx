@@ -2,7 +2,6 @@ import React from 'react'
 import { FaGithub,FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
-import {Link} from 'react-router-dom'
 const SocialLinks = () => {
   return (
     <div className='hidden lg:flex fle-col top-[35%] left-0 fixed'>
