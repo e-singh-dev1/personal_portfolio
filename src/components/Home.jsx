@@ -1,10 +1,7 @@
-import React,{useState} from 'react'
+import React from 'react'
 import HeroImage from '../assets/HeroImage.jpg'
 import {MdArrowRightAlt} from 'react-icons/md'
-import Portfolio from './Portfolio'
-import { Link } from 'react-router-dom'
 const Home = () => {
-  const[state,setState] = useState(false);
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
       <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
