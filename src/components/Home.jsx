@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroImage from '../assets/HeroImage.jpg'
 import {MdArrowRightAlt} from 'react-icons/md'
+import {Link} from 'react-scroll'
 const Home = () => {
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800'>
@@ -11,10 +12,12 @@ const Home = () => {
       Hello ! I'm Eshan,a passionate and dedicated full stack developer.Feel free to explore my work, delve into my technical prowess, and get a glimpse of the impact I've made so far. If you're looking to collaborate, innovate, or simply share ideas, I'm just a click away. Let's embark on a digital adventure together and turn your visions into reality.
       </p>
       <div>
+      <Link to='portfolio' smooth duration={500}>
         <button className='group text-white font-semibold w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
           Portfolio &nbsp;
           <span className='group-hover:rotate-90 duration-300'><MdArrowRightAlt size={25}/></span> 
         </button>
+      </Link>
       </div>
      </div>
      <div>
